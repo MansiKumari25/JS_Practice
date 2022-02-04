@@ -9,6 +9,34 @@
     <script src="script.js"></script>
 </head>
 <body>
-  
+  <div class="wrapper">
+
+    <div class="main">
+       
+                 <table>
+                    <tr>                       
+                    <td class="lab"><label>Length of Rectangle: </label></td>
+                    <td class="inp"><input type="text" name="len" id="len" required></td>
+                    </tr>
+
+                
+                    <td class="lab"><label>Width of Rectangle: </label></td>
+                    <td class="inp"><input type="text" name="wid" id="wid" required></td>
+                
+                    <tr class="btn">
+                        <td colspan="2"><button onclick="calcParam()">Calculate Area and Perimeter</button></td>
+                    </tr>
+               
+                </table>
+
+            <div id="output">
+                <h3>Answer</h3>
+                <div class="op"><p>Area: </p><span id="area"></span></div>
+                <div class="op"><p>Perimeter: </p><span id="peri"></span></div>
+            </div>
+
+    </div>
+
+  </div>
 </body>
 </html>
